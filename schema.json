@@ -11,7 +11,8 @@
       "description": "The version of the schema being used. Essential for tracking schema evolution and backward compatibility.",
       "minLength": 1,
       "examples": ["0.2.0", "1.0.0"],
-      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "default": "0.2.0"
     },
     "postersscienceIdentifier": {
       "type": "string",
